@@ -33,7 +33,6 @@ Koko Bakehouse/
 │   ├── order.js             — WhatsApp pre-filled order link
 │   └── nav.js               — Mobile navigation controller
 ├── images/                  — Visual assets and SVG fallbacks
-├── generate-placeholders.js — SVG asset generator utility
 ├── LICENSE                  — MIT License
 └── README.md
 ```
