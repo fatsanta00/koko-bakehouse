@@ -7,6 +7,13 @@ A focused, responsive landing page for a fictional neighbourhood bakery. Built a
 
 ---
 
+## Live Deployment & Repository
+
+- **GitHub Repository:** [https://github.com/fatsanta00/koko-bakehouse](https://github.com/fatsanta00/koko-bakehouse)
+- **Live Production URL:** [https://koko-bakehouse.vercel.app](https://koko-bakehouse.vercel.app)
+
+---
+
 ## Architectural & Code Standards
 
 - **Namespacing & Class Architecture:** All CSS classes and element IDs utilize the structured author prefix (`sb-`) for uniqueness, maintainability, and clean scope isolation.
