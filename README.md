@@ -1,47 +1,48 @@
+
 # Koko Bakehouse — Landing Page
 
-**Author & Lead Engineer:** Stephen Bassey (SB)  
-**Copyright:** © 2026 Stephen Bassey. All rights reserved.
+**Author & Lead Engineer:** Stephen Bassey  
+**Copyright:** © 2026 Stephen Bassey
 
-A focused, responsive landing page for a fictional neighbourhood bakery. Built as a high-standard frontend demonstration.
+A focused, responsive landing page for a fictional neighbourhood bakery, built as a frontend assessment project.
 
 ---
 
 ## Live Deployment & Repository
 
-- **GitHub Repository:** [https://github.com/fatsanta00/koko-bakehouse](https://github.com/fatsanta00/koko-bakehouse)
-- **Live Production URL:** [https://koko-bakehouse.vercel.app](https://koko-bakehouse.vercel.app)
+- **GitHub Repository:** https://github.com/fatsanta00/koko-bakehouse
+- **Live Production URL:** https://koko-bakehouse.vercel.app
 
 ---
 
 ## Architectural & Code Standards
 
-- **Namespacing & Class Architecture:** All CSS classes and element IDs utilize the structured author prefix (`sb-`) for uniqueness, maintainability, and clean scope isolation.
-- **Zero Runtime Dependencies:** Plain semantic HTML5, modern modular CSS3 with custom properties, and lightweight vanilla ES6+ JavaScript.
-- **Access & Inclusivity:** Semantic HTML landmarks, WCAG-compliant contrast ratios, accessible focus indicators, and ARIA state control.
+- **Namespacing & Class Architecture:** CSS classes and element IDs use the `sb-` prefix to keep selectors organised and reduce naming conflicts.
+- **Zero Runtime Dependencies:** Built with semantic HTML5, CSS3 custom properties, and lightweight vanilla JavaScript.
+- **Accessibility & Usability:** Uses semantic page landmarks, visible keyboard focus indicators, and ARIA state updates for the mobile navigation. Colour contrast was considered throughout the design.
 
 ---
 
 ## Project Structure
 
-```
+```text
 Koko Bakehouse/
-├── index.html              — Primary markup with 'sb-' namespacing & metadata
-├── style.css               — Core stylesheet with CSS custom properties & 'sb-' naming
+├── index.html               — Primary markup, namespacing and metadata
+├── style.css                — Core stylesheet with CSS custom properties
 ├── js/
-│   ├── order.js            — WhatsApp pre-filled order builder (id: sb-whatsapp-btn)
-│   └── nav.js              — Accessible mobile nav controller (.sb-nav-toggle)
-├── images/                 — Visual assets & SVG fallbacks
+│   ├── order.js             — WhatsApp pre-filled order link
+│   └── nav.js               — Mobile navigation controller
+├── images/                  — Visual assets and SVG fallbacks
 ├── generate-placeholders.js — SVG asset generator utility
-├── LICENSE                 — MIT License with Stephen Bassey copyright notice
+├── LICENSE                  — MIT License
 └── README.md
 ```
 
 ---
 
-## Attribution & Ownership
+## Attribution & License
 
-This project and its custom UI architecture were created by **Stephen Bassey**. All proprietary layout patterns, styling conventions, and codebase components are protected under the included licensing agreement.
+Created by **Stephen Bassey** and released under the [MIT License](LICENSE). The MIT License permits use, modification, and distribution subject to its terms.
 
 ---
 
