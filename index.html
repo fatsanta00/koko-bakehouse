@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Koko Bakehouse — Single Page Landing
+    Design & Development: Stephen Bassey (SB)
+    Copyright (c) 2026 Stephen Bassey. All rights reserved.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Stephen Bassey" />
+  <meta name="creator" content="Stephen Bassey" />
+  <meta name="description" content="Koko Bakehouse — fresh bread, meat pies, and small chops. Weekend home delivery now open." />
+  <title>Koko Bakehouse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="sb-site-header" role="banner">
+    <div class="sb-container sb-header-inner">
+      <div class="sb-wordmark-wrap">
+        <a href="#" class="sb-wordmark" aria-label="Koko Bakehouse — home">Koko Bakehouse</a>
+        <span class="sb-brand-tag" title="Designed & Built by Stephen Bassey">by SB</span>
+      </div>
+
+      <nav class="sb-primary-nav" aria-label="Primary navigation">
+        <ul role="list">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#order" class="sb-btn sb-btn--nav">Order now</a></li>
+        </ul>
+      </nav>
+
+      <button
+        class="sb-nav-toggle"
+        aria-controls="sb-mobile-nav"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+      >
+        <span class="sb-nav-toggle__bar"></span>
+        <span class="sb-nav-toggle__bar"></span>
+        <span class="sb-nav-toggle__bar"></span>
+      </button>
+    </div>
+
+    <div id="sb-mobile-nav" class="sb-mobile-nav" hidden aria-label="Mobile navigation">
+      <ul role="list">
+        <li><a href="#menu" class="sb-mobile-nav__link">Menu</a></li>
+        <li><a href="#order" class="sb-mobile-nav__link">Order</a></li>
+        <li><a href="#order" class="sb-mobile-nav__link sb-mobile-nav__link--cta">Order now</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="sb-hero" aria-labelledby="sb-hero-heading">
+      <div class="sb-container sb-hero-inner">
+        <div class="sb-hero-text">
+          <p class="sb-hero-eyebrow">Weekend delivery now open</p>
+          <h1 id="sb-hero-heading">Koko<br />Bakehouse</h1>
+          <p class="sb-hero-body">
+            Fresh bread, meat pies, and small chops — made in small batches
+            and delivered to your door on weekends.
+          </p>
+          <a href="#order" class="sb-btn sb-btn--primary">Place a weekend order</a>
+        </div>
+
+        <div class="sb-hero-image-wrap">
+          <img
+            src="images/hero.png"
+            alt="A tray of golden, freshly baked meat pies beside a loaf of sliced milk bread"
+            class="sb-hero-image"
+            width="720"
+            height="540"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="sb-menu-section" id="menu" aria-labelledby="sb-menu-heading">
+      <div class="sb-container">
+        <header class="sb-section-header">
+          <h2 id="sb-menu-heading">This week's menu</h2>
+          <p class="sb-section-subhead">Order for Saturday or Sunday delivery.</p>
+        </header>
+
+        <ol class="sb-menu-list" role="list">
+
+          <li class="sb-menu-item">
+            <div class="sb-menu-item__image-wrap">
+              <img
+                src="images/milk-bread.png"
+                alt="A whole loaf of soft white milk bread with a lightly golden crust"
+                class="sb-menu-item__image"
+                width="480"
+                height="360"
+                loading="lazy"
+              />
+            </div>
+            <div class="sb-menu-item__body">
+              <h3 class="sb-menu-item__name">Fresh Milk Bread</h3>
+              <p class="sb-menu-item__desc">
+                Soft, pillowy, and lightly sweet. Baked fresh every weekend morning and best eaten the same day.
+              </p>
+              <p class="sb-menu-item__price" aria-label="Price: 2,500 naira">₦2,500</p>
+            </div>
+          </li>
+
+          <li class="sb-menu-item">
+            <div class="sb-menu-item__image-wrap">
+              <img
+                src="images/classic-pie.png"
+                alt="A classic meat pie on parchment paper, showing a golden crimped edge"
+                class="sb-menu-item__image"
+                width="480"
+                height="360"
+                loading="lazy"
+              />
+            </div>
+            <div class="sb-menu-item__body">
+              <h3 class="sb-menu-item__name">Classic Meat Pie</h3>
+              <p class="sb-menu-item__desc">
+                Shortcrust pastry filled with seasoned minced beef, diced potato, and carrots. A proper, familiar bite.
+              </p>
+              <p class="sb-menu-item__price" aria-label="Price: 1,200 naira">₦1,200</p>
+            </div>
+          </li>
+
+          <li class="sb-menu-item">
+            <div class="sb-menu-item__image-wrap">
+              <img
+                src="images/chicken-pie.png"
+                alt="A chicken meat pie cut open to show a generous filling of shredded chicken"
+                class="sb-menu-item__image"
+                width="480"
+                height="360"
+                loading="lazy"
+              />
+            </div>
+            <div class="sb-menu-item__body">
+              <h3 class="sb-menu-item__name">Chicken Meat Pie</h3>
+              <p class="sb-menu-item__desc">
+                Flaky pastry loaded with slow-cooked shredded chicken and aromatic seasoning. A crowd favourite.
+              </p>
+              <p class="sb-menu-item__price" aria-label="Price: 1,500 naira">₦1,500</p>
+            </div>
+          </li>
+
+          <li class="sb-menu-item">
+            <div class="sb-menu-item__image-wrap">
+              <img
+                src="images/small-chops.png"
+                alt="A spread of small chops including puff puff, spring rolls, and samosas"
+                class="sb-menu-item__image"
+                width="480"
+                height="360"
+                loading="lazy"
+              />
+            </div>
+            <div class="sb-menu-item__body">
+              <h3 class="sb-menu-item__name">Weekend Small Chops Box</h3>
+              <p class="sb-menu-item__desc">
+                A generous assortment of puff puff, spring rolls, and samosas — perfect for sharing at gatherings.
+              </p>
+              <p class="sb-menu-item__price" aria-label="Price: 5,000 naira">₦5,000</p>
+            </div>
+          </li>
+
+        </ol>
+
+        <p class="sb-menu-note">
+          Sample menu — items and prices are subject to change. Contact us on WhatsApp to confirm current availability.
+        </p>
+      </div>
+    </section>
+
+    <section class="sb-order-section" id="order" aria-labelledby="sb-order-heading">
+      <div class="sb-container sb-order-inner">
+        <div class="sb-order-text">
+          <h2 id="sb-order-heading">Ready to order?</h2>
+          <p>
+            Weekend orders open Thursday evening and close Friday night.
+            Message us on WhatsApp and we'll confirm your items, delivery window, and total.
+          </p>
+          <a
+            id="sb-whatsapp-btn"
+            href="#"
+            class="sb-btn sb-btn--primary sb-btn--whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Order via WhatsApp (opens WhatsApp in a new tab)"
+          >
+            Order on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="sb-site-footer" role="contentinfo">
+    <div class="sb-container sb-footer-inner">
+      <p class="sb-footer-wordmark">Koko Bakehouse</p>
+      <p class="sb-footer-tagline">Freshly made for your weekend.</p>
+      <nav class="sb-footer-nav" aria-label="Footer navigation">
+        <a href="#menu">Menu</a>
+        <span aria-hidden="true">·</span>
+        <a href="#order">Order</a>
+      </nav>
+      <p class="sb-watermark">
+        Concept, UI Architecture &amp; Engineering by <strong>Stephen Bassey</strong> &copy; 2026.
+      </p>
+      <p class="sb-footer-demo-note">
+        This is a fictional demo page created for a frontend assessment. Koko Bakehouse is not a real operating business.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/order.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
